@@ -1,0 +1,65 @@
+header {
+    height: 15vh;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 48px;
+    font-size: 25px;
+}
+
+.logo {
+    float: left;
+    width: auto;
+    height: 150px;
+    padding-top: 20px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    -webkit-transition: border-bottom 0.2s;
+    -moz-transition: border-bottom 0.2s;
+    -ms-transition: border-bottom 0.2s;
+    -o-transition: border-bottom 0.2s;
+    padding: 8px 0;
+}
+
+.main-nav li a:active, 
+.main-nav li a:hover {
+    border-bottom: 2px solid darkviolet;
+}
+
+.contact a {
+    float: left;
+    display: block;
+    color: rgb(243, 244, 245);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    background-color: darkviolet;
+    color: black;
+}
+  
+  
+  

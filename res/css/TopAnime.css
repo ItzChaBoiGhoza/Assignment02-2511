@@ -1,0 +1,107 @@
+header {
+    height: 15vh;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.logo {
+    float: left;
+    width: auto;
+    height: 150px;
+    padding-top: 20px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    -webkit-transition: border-bottom 0.2s;
+    -moz-transition: border-bottom 0.2s;
+    -ms-transition: border-bottom 0.2s;
+    -o-transition: border-bottom 0.2s;
+    padding: 8px 0;
+}
+
+.main-nav li a:active, 
+.main-nav li a:hover {
+    border-bottom: 2px solid darkviolet;
+}
+
+.center {
+    text-align: center;
+}
+
+#anime td, #anime th{
+    border: 1px solid rgb(124, 18, 89);
+    padding: 7px;
+}
+
+#anime tr:nth-child(even)
+{background-color: #f2f2f2;}
+
+#anime tr:hover {background-color: #ddd;}
+
+#anime th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: purple;
+    color: white;
+}
+
+#anime {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h3 {
+    font-size: 18pt;
+    font-weight: bolder;
+    color: purple;
+    float: left;
+}
+
+h4 {
+    float: right;
+}
+
+p {
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(53, 50, 50);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.date {
+    font-size: 10pt;
+    font-weight: bold;
+    color: rgb(109, 106, 106);
+}
+
+
+
+
